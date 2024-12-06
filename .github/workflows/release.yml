@@ -33,7 +33,7 @@ jobs:
         
     - name: ttc2ttf
       run: |
-        ttc2ttf ttc2ttf.py PingFangUI.wght.wdth.ttc
+        python ttc2ttf.py PingFangUI.wght.wdth.ttc
         md5sum *
 
     - name: Release
